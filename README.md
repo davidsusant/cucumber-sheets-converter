@@ -26,3 +26,27 @@ No additional gems required. The script uses only Ruby standard library.
 chmod +x cucumber_to_sheets.rb
 ```
 
+## Usage
+
+### Basic Usage
+
+```bash
+# Parse a single feature file
+ruby cucumber_to_sheets.rb path/to/feature_file.feature
+
+# Parse all feature files in a directory
+ruby cucumber_to_sheets.rb path/to/features
+
+# Specify custom output filename
+ruby cucumber_to_sheets.rb path/to/features/ my_output.csv
+```
+
+### Examples
+
+```bash
+# Parse the sample feature file
+ruby cucumber_to_sheets.rb features/login.feature
+
+# Parse all features in a directory and save to a custom file
+ruby cucumber_to_sheets.rb features/ test_cases.csv
+```
