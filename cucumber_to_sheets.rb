@@ -4,7 +4,7 @@ require 'json'
 
 class CucumberToSheets
 
-  OUTPUT_DIR = 'output'
+  OUTPUT_DIR = 'outputs'
   CHECKBOX_COLUMNS = ['Automated', 'Positive', 'Negative', 'Smoke', 'Regression', 'Sanity']
 
   def initialize
